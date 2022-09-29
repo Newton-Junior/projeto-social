@@ -3,6 +3,10 @@
 Pra posicionar no meio o section usou top e left 50%, e depois o transform com 50% negativo pras duas dimensões, no transform o 50% é relativo ao tamanho da forma que receberá a alteração.
 
 quando abrimos uma imagem no gimp, é possível ver suas dimensões clicando em imagem depois em propriedades da imagem
+
+Importante: as vezes quando com o hover adicionamos uma borda e as caixas ao lado se movem, Pra evitar que as bordas se movam devemos incluílas ao tamanho da caixa, com a propriedade box-sizing:"border-box", pronto problema resolvido, quando uma borda for adicionada as caixas ao seu redor não se moverão
+
+Um efeito muito legal é quando sob um hover uma caixa se mover, aumentar a sombra dessa caixa, passando a impressão de 3d, como se ao a caixa se levantar uma sombra é formada
 */
 
 *{
@@ -40,4 +44,20 @@ iframe#tela{
     left: 23px;
     width: 270px;
     height: 471px;
+}
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius:50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.393);
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(171, 49, 49, 0.611);
+    transform: translate(-3px,-3px);
+    box-shadow:5px 5px 10px black;
+    transition:transform 0.5s,border 0.2s;
 }
