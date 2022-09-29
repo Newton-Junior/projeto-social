@@ -1,0 +1,5 @@
+Para gerar aquelas imagens grandes de tela de celular:
+tira vários prints, e junta esses prints no GIMP
+
+No gimp: joga todas as fotos em guias diferentes, clica em imagem-->tamanho da tela de pintura-->altera a altura pra um valor absurdo, tipo 10000, deixa o deslocamento em 0, e aperta em redimensionar, aí coloca a parte de cima no topo certinho;Vai na segunda foto, clica na ferramenta pra um corte e seleção retangular e pega a parte que tiver que pegar pra completar a primeira foto, dá ctrl+c, e vai na primeira imagem que vai estar comprida, e da ctrl+v, ai move a segunda imagem e encaixa ela na primeira foto, vai fazendo o mesmo com as outras imagens e vai interligando as imagens, a imagem vai ficar bem comprida. Pra tirar a sobra de baixo, onde não tem imagem, seleciona a ferramenta de crop, ou corte, e marca somente a parte que quero. Pronto.
+A imagem fica muito grande, para reduzir > imagem > redimensionar imagem, é bom deixar a imagem menor, tipo uns 600 de largura. Pra ficar uma imagem mais leve, é melhor o jpg que o png
