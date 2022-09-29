@@ -7,6 +7,10 @@ quando abrimos uma imagem no gimp, é possível ver suas dimensões clicando em 
 Importante: as vezes quando com o hover adicionamos uma borda e as caixas ao lado se movem, Pra evitar que as bordas se movam devemos incluílas ao tamanho da caixa, com a propriedade box-sizing:"border-box", pronto problema resolvido, quando uma borda for adicionada as caixas ao seu redor não se moverão
 
 Um efeito muito legal é quando sob um hover uma caixa se mover, aumentar a sombra dessa caixa, passando a impressão de 3d, como se ao a caixa se levantar uma sombra é formada
+
+Como esconder barra de rolagem:
+::webkit-scrollbar{width:0px;height:0px}
+pronto, não tem mais scrollbar.
 */
 
 *{
